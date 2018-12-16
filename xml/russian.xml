@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR>Ф. М. Достоевский</AUTHOR>
+		<TITLE>Идиот</TITLE>
+		<LINK>..\filestorage\Idiot - Fiedor Mikhailovich Dostoievskii_ru.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>А. С. Пушкин</AUTHOR>
+		<TITLE>Евгений Онегин</TITLE>
+		<LINK>..\filestorage\Pushkin_Evgenii_Onegin_ru.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>И.С. Тургенев</AUTHOR>
+		<TITLE>Отцы и дети</TITLE>
+		<LINK>..\filestorage\Turgenev_Ottsy_i_deti.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Чарльз Диккенс</AUTHOR>
+		<TITLE>Оливер Твист</TITLE>
+		<LINK>..\filestorage\Prikljuchenija-olivera-tvista.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Виктор Гюго</AUTHOR>
+		<TITLE>Собор Парижской Богоматери</TITLE>
+		<LINK>..\filestorage\Sobor Parizhskoi Boghomatieri - Viktor Giugho_ru.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Уильям Шекспир</AUTHOR>
+		<TITLE>Венецианский купец</TITLE>
+		<LINK>..\filestorage\Shekspir_Venecianskiy-kupec_ru.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR>Водопьянов П. А., Бурак П. М.</AUTHOR>
+		<TITLE>Философия и методология науки</TITLE>
+		<LINK>..\filestorage\vodopyanov_filosofiya-i-metodologiya-nauki.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Лащенко Анатолий Павлович</AUTHOR>
+		<TITLE>Основы дискретной математики и теории алгоритмов</TITLE>
+		<LINK>..\filestorage\osnovy-diskretnoi-matematiki_lashhenko.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR> А. Л. Калтыгин, С. В. Красковский, С. В. Ращупкин</AUTHOR>
+		<TITLE>Иженереная шеометрия и графика</TITLE>
+		<LINK>..\filestorage\Alice in Wonderland - Lewis Carroll.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>В. М. Марченко, И. К. Асмыкович, И. М. Борковская и др.</AUTHOR>
+		<TITLE>Высшая математика в 2-ух частях. 2 часть</TITLE>
+		<LINK>..\filestorage\Vysshaya_matematika_2_chast_V_M_Marchenko.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>П. П. Урбанович, Д. М. Романенко, Е. В. Кабак</AUTHOR>
+		<TITLE>Компьютерные сети</TITLE>
+		<LINK>..\filestorage\urbanovich_kompyuternye-seti.2011.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Д. М. Романенко, Н. В. Пацей, М. Ф. Кудлацкая</AUTHOR>
+		<TITLE>Компьютерные сети</TITLE>
+		<LINK>..\filestorage\Laboratorny_praktikum_Kompyuternye_seti_2016.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>В. М. Марченко, И. К. Асмыкович, И. М. Борковская и др.</AUTHOR>
+		<TITLE>Высшая математика в 2-ух частях. 2 часть</TITLE>
+		<LINK>..\filestorage\Vysshaya_matematika_2_chast_V_M_Marchenko.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>А. С. Кобайло, Н. А. Жиляк</AUTHOR>
+		<TITLE>Введение в XML</TITLE>
+		<LINK>..\filestorage\kobailo_vvedenie-v-xml.2011.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Шиман Д.В., Урбанович П.П.</AUTHOR>
+		<TITLE>Защита информации и надежность информационных систем</TITLE>
+		<LINK>..\filestorage\zashhita-informacii-i-nadezhnost_-urbanovich-dlya-z.o..pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>А. С. Кобайло, Н. А. Жиляк</AUTHOR>
+		<TITLE>Арифметико-логические основы цифровых вычислительных машин и архитектура компьютеров. Введение в архитектуру компьютерных систем</TITLE>
+		<LINK>..\filestorage\kobailo_zhilyak_alo-cvm.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Н. А. Жиляк</AUTHOR>
+		<TITLE>Введение в JavaScript</TITLE>
+		<LINK>..\filestorage\zhilyak_vvedenie.2014.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Марченко В.М., Асмыкович И.К., Борковская И. М.</AUTHOR>
+		<TITLE>Высшая математика</TITLE>
+		<LINK>..\filestorage\Prikljuchenija-olivera-tvista.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>

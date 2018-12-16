@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR>F. Scott Fitzgerald </AUTHOR>
+		<TITLE>The Great Gatsby</TITLE>
+		<LINK>..\filestorage\The Great Gatsby - Francis Scott Fitzgerald_en.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Ken Kesey </AUTHOR>
+		<TITLE>One flew over cuckoo's nest</TITLE>
+		<LINK>..\filestorage\kesey_ken_one_flew_over_cuckoo_s_nest.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Lewis Carroll</AUTHOR>
+		<TITLE>Alice’s Adventures in Wonderland</TITLE>
+		<LINK>..\filestorage\Alice in Wonderland - Lewis Carroll.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Jane Austen</AUTHOR>
+		<TITLE>Sense and Sensibility </TITLE>
+		<LINK>..\filestorage\Sense and Sensibility - Jane Austen_en.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Jack London</AUTHOR>
+		<TITLE>Martin Eden</TITLE>
+		<LINK>..\filestorage\London, Jack - Martin Eden_en.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Jane Austen</AUTHOR>
+		<TITLE>Emma</TITLE>
+		<LINK>..\filestorage\Emma - Jane Austen_en.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>
