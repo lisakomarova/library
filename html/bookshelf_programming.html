@@ -48,12 +48,12 @@
 					<div class="books">
 						<div class="csharp">
 							<h2 class="bookshelf_title">C#</h2>
-							<a  href = "..\filestorage\1cleary_s_concurrency_in_c_cookbook.pdf"></a> <p  id="csharp"></p></br>
-							<a  href = "..\filestorage\Learning_C-_by_Developing_Games_with_Unity_5_x_2nd_Edition.pdf"></a><p  id="csharp"></br>
-							<a  href = "..\filestorage\cleancsharp.pdf">Jason Roberts - Three Book about C# (2018)</a><p  id="csharp"></br>
-							<a  href = "..\filestorage\WebProgrammingBook.pdf">Joe Albahari - C# 6.0 in a Nutshell: The Definitive Reference (2015)</a></br>
-							<a  href = "..\filestorage\C-_7_Quick_Syntax_Reference_2nd_Edition.pdf"> Mikael Olsson - C# 7 Quick Syntax Reference, 2nd Edition (2018)</a></br>
-							<a  href = "..\filestorage\Begin_to_Code_with_C.pdf">  Rob Miles - Begin to Code with C# (2017)</a></br>
+							<a id="csharp" href = "..\filestorage\1cleary_s_concurrency_in_c_cookbook.pdf"></a></br>
+							<a id="csharp" href = "..\filestorage\Learning_C-_by_Developing_Games_with_Unity_5_x_2nd_Edition.pdf"></a></br>
+							<a id="csharp" href = "..\filestorage\cleancsharp.pdf">Jason Roberts - Three Book about C# (2018)</a></br>
+							<a id="csharp" href = "..\filestorage\WebProgrammingBook.pdf">Joe Albahari - C# 6.0 in a Nutshell: The Definitive Reference (2015)</a></br>
+							<a id="csharp" href = "..\filestorage\C-_7_Quick_Syntax_Reference_2nd_Edition.pdf"> Mikael Olsson - C# 7 Quick Syntax Reference, 2nd Edition (2018)</a></br>
+							<a id="csharp" href = "..\filestorage\Begin_to_Code_with_C.pdf">  Rob Miles - Begin to Code with C# (2017)</a></br>
 						</div>
 						<div class="JavaScript">
 							<h2 class="bookshelf_title">JavaScript</h2>
@@ -127,11 +127,12 @@
                 var event = $(this);
                 var name=event.find("AUTHOR").text();
                 var date=event.find("TITLE").text();
-                table +='<tr><td>' + name + '</td><td>' + date + '</td><td></td></tr>';
+                var place=event.find("LINK").text();
+                table +='<tr><td> <a href = "' + place + '">'+ name +' - '+ date +'</a></td></tr>';
             })    
 
             table += "</table>"
-            $('#csharp').append(table);
+            $('.csharp').append(table);
         }        
     })
 });
