@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="..\css\main.css">
     <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../js/xmlrequest.js"></script>
 </head>
 <body>
 		<header id="header" class="header">
@@ -104,33 +105,5 @@
 			</div>
 		</div>
 	</footer>
-	
 </body>
-<script type="text/javascript">
-		$(document).ready(function(){
-    var table = "<table>";
-    $.ajax({
-        type:"GET",
-        url:"csharp.xml",
-        dataType:"xml",
-        success:function(xml){
-
-            var events = xml.children[0].children;
-
-            $.each(events, function(){
-                var event = $(this);
-                var name=event.find("AUTHOR").text();
-                var date=event.find("TITLE").text();
-                var place=event.find("LINK").text();
-                table +='<tr><td> <a href = "' + place + '">'+ name +' - '+ date +'</a></td></tr>';
-            })    
-
-            table += "</table>"
-            $('.csharp').append(table);
-        }        
-    })
-});
-
-	</script>
-
 </html>
