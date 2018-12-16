@@ -3,12 +3,12 @@
 	<BOOK>
 		<AUTHOR>Stephen Cleary</AUTHOR>
 		<TITLE>Concurrency in C# Cookbook (2014)</TITLE>
-		<LINK>https://www.managementboek.nl/code/inkijkexemplaar/9781449367565/concurrency-in-c-cookbook-engels-stephen-cleary.pdf</LINK>
+		<LINK>..\filestorage\1cleary_s_concurrency_in_c_cookbook.pdf</LINK>
 	</BOOK>
 	<BOOK>
-		<AUTHOR>Stephen Cleary</AUTHOR>
-		<TITLE>Concurrency in C# Cookbook (2014)</TITLE>
-		<LINK>https://www.managementboek.nl/code/inkijkexemplaar/9781449367565/concurrency-in-c-cookbook-engels-stephen-cleary.pdf</LINK>
+		<AUTHOR> Greg Lukosek</AUTHOR>
+		<TITLE>Learning C# by Developing Games with Unity 5.x (2016)</TITLE>
+		<LINK>..\filestorage\Learning_C-_by_Developing_Games_with_Unity_5_x_2nd_Edition.pdf</LINK>
 	</BOOK>
 	<BOOK>
 		<AUTHOR>Stephen Cleary</AUTHOR>
