@@ -13,6 +13,6 @@
 	<BOOK>
 		<AUTHOR>Stephen Cleary</AUTHOR>
 		<TITLE>Concurrency in C# Cookbook (2014)</TITLE>
-		<LINK>https://www.managementboek.nl/code/inkijkexemplaar/9781449367565/concurrency-in-c-cookbook-engels-stephen-cleary.pdf</LINK>
+		<LINK>..\filestorage\1cleary_s_concurrency_in_c_cookbook.pdf</LINK>
 	</BOOK>
 </BOOKSHELF>

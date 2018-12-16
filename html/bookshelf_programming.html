@@ -125,10 +125,10 @@
 
             $.each(events, function(){
                 var event = $(this);
-                var name=event.find("Author").text();
-                var date=event.find("Title").text();
-                var place=event.find("Link").text();
-                table +='<tr><td>' + name + '</td><td>' + date + '</td><td>' + place + '</td></tr>';
+                var name=event.find("AUTHOR").text();
+                var date=event.find("TITLE").text();
+                var place=event.find("LINK").text();
+                table +='<tr><td>' + name + '</td><td>' + date + '</td><td> <a href = "' + place + '"></td></tr>';
             })    
 
             table += "</table>"
