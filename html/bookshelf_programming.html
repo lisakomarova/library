@@ -113,20 +113,30 @@
 	
 </body>
 <script type="text/javascript">
-		$(document).ready(function () { //когда загрузилась стр выполнять эту функцию 
-$.ajax({ 
-type: "GET", 
-url: "csharp.xml", 
-dataType: "xml", 
-success: xmlParser 
-}); 
-}); 
-function xmlParser(xml) { 
-$(xml).find("BOOKSHELF").each(function () { 
-$("#csharp").append($(xml).find("AUTHOR").text()+'- '+$(xml).find("TITLE").text()+'</a></br>'); 
+		$(document).ready(function(){
+    var table = "<table><tr><td>Author</td><td>Title</td><td>Link</td></tr>";
+    $.ajax({
+        type:"GET",
+        url:"csharp.xml",
+        dataType:"xml",
+        success:function(xml){
 
-}); 
-} 
+            var events = xml.children[0].children;
+
+            $.each(events, function(){
+                var event = $(this);
+                var name=event.find("Author").text();
+                var date=event.find("Title").text();
+                var place=event.find("Link").text();
+                table +='<tr><td>' + name + '</td><td>' + date + '</td><td>' + place + '</td></tr>';
+            })    
+
+            table += "</table>"
+            $('.csharp').append(table);
+        }        
+    })
+});
+
 	</script>
 
 </html>
