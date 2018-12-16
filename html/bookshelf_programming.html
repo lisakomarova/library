@@ -48,8 +48,6 @@
 					<div class="books">
 						<div class="csharp">
 							<h2 class="bookshelf_title">C#</h2>
-							<a href = "..\filestorage\1cleary_s_concurrency_in_c_cookbook.pdf"> Stephen Cleary - Concurrency in C# Cookbook (2014)</a></br>
-							<a href = "..\filestorage\Learning_C-_by_Developing_Games_with_Unity_5_x_2nd_Edition.pdf"> Greg Lukosek - Learning C# by Developing Games with Unity 5.x (2016)</a></br>
 							<a href = "..\filestorage\cleancsharp.pdf">Jason Roberts - Three Book about C# (2018)</a></br>
 							<a href = "..\filestorage\WebProgrammingBook.pdf">Joe Albahari - C# 6.0 in a Nutshell: The Definitive Reference (2015)</a></br>
 							<a href = "..\filestorage\C-_7_Quick_Syntax_Reference_2nd_Edition.pdf"> Mikael Olsson - C# 7 Quick Syntax Reference, 2nd Edition (2018)</a></br>
@@ -123,10 +121,10 @@ success: xmlParser
 }); 
 function xmlParser(xml) { 
 $(xml).find("BOOKSHELF").each(function () { 
-$(".csharp").append('<div class="info"><div class="name">' + $(xml).find("AUTHOR").text() + '</div><div class="faculty">' + $(xml).find("TITLE").text() + '</div><div class="speciality">' + $(xml).find("LINK").text()); 
+$(".csharp").append('<a href = "'+$(xml).find("LINK").text()+'"> '+$(xml).find("AUTHOR").text()+'- '+$(xml).find("TITLE").text()+'</a></br>'); 
 
 }); 
-}
+} 
 	</script>
 
 </html>
