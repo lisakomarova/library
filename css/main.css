@@ -1,0 +1,201 @@
+/*specification*/
+body{
+	font-family: 'Lora', serif;
+}
+p {
+    text-indent: 1.8em; /* Отступ первой */
+   }
+ul,li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+hr{
+	border: 1px solid black;
+}
+/*home page*/
+/*header*/
+header{
+	background: #5A6E60;
+	color: white;
+	padding-top: 5px;
+}
+.greetings{
+	background-image: url(../img/jason-wong-502099-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-top: 125px;
+	padding-bottom:415px;
+}
+.menu{
+	margin-top: 5px;
+	text-align: center;
+}
+.menu_item{
+	margin:15px;
+}
+.menu_item a{
+	font-size: 18px;
+	color: #FCF2E7;
+	text-decoration: none;
+}
+.menu_item a:hover {
+	border-bottom: 2px solid white;
+}
+.personal_library{
+	text-align: center;
+}
+}
+.title_main{
+	font-weight: bold;
+	font-size: 65px;
+}
+.title_main_text{
+	text-indent: none;
+	font-size: 20px;
+}
+.title_block{
+	padding-bottom: 10px;
+}
+/*footer*/
+.footer{
+	background-color: #5A6E60;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+
+}
+.footer_links{
+	margin-top: 5px;
+}
+.footer_item{
+	margin:15px;
+}
+.footer_item a{
+	font-size: 18px;
+	color: #FCF2E7;
+	text-decoration: none;
+}
+.footer_item a:hover{
+	color:#BAC1BC;
+}
+/*bookshelf*/
+.bookshelf{
+	background:#FCF2E7;
+	background-size: cover;
+	color: black;
+	padding-top: 80px;
+}
+.bookshelf_block{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bookshelf_image{
+	width: 100%;
+	height: 70%;
+}
+.bookshelf_genre{
+	padding-top: 15px;
+}
+.bookshelf_genre a{
+	color:black;
+	text-decoration: none;
+}
+.bookshelf_genre a:hover {
+	color: #5A6E60;
+}
+/*blog page*/
+.catalog{
+	background:#FCF2E7;
+	background-size: cover;
+	color: black;
+	padding-top:80px;
+}
+.article{
+	color: black;
+	border: 2px;
+	padding: 15px;
+}
+.article a {
+	color: black;
+	text-decoration: none;
+}
+.article a:hover {
+	color: #5A6E60;
+}
+.image_blog{
+	width: 100%;
+	height:100%;
+	padding: 15px;
+	margin-right: 20px;
+}
+/*articles*/
+.articles{
+	background: #FCF2E7;
+	padding-top: 30px;
+}
+.articles a {
+	color:#5A6E60;
+	text-decoration: none;
+	font-size: 1.8em;
+	padding-top: 5px;
+}
+.articles a:hover {
+	color: #49594E;
+}
+.article_title{
+	padding-left: 15px;
+}
+.article_image{
+	width: 100%;
+	height: 100%;
+	margin-bottom:15px;
+}
+.title_text{
+	text-align: center;
+	font-size: 25px;
+}
+.library_block{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.library_image{
+	width: 90%;
+	height: 70%;
+}
+.library_genre{
+	padding-top: 15px;
+}
+.bookshelf_page{
+	background:#FCF2E7;
+	background-size: cover;
+	color: black;
+	padding-top: 30px;
+}
+.bookshelf_page a {
+	color:#5A6E60;
+	text-decoration: none;
+	font-size: 1.8em;
+	padding-top: 5px;
+}
+.bookshelf_page a:hover {
+	color: #49594E;
+}
+.books{
+	padding-bottom:40px;
+}
+.books a{
+	color: #222A25;
+	text-decoration: none;
+	font-size: 20px;
+}
+.books a:hover {
+	color: #77917F;
+}
+.bookshelf_title{
+	text-align: center;
+}
+.book_link {
+	padding-bottom:10px;
+}
