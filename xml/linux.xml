@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR>Evi Nemeth, Garth Snyder, Trent R. Hein, Ben Whaley</AUTHOR>
+		<TITLE>Unix and Linux system administration handbook (2011)</TITLE>
+		<LINK>..\filestorage\UNIX_and_Linux_System_Administration_Handbook_4th_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Christopher Negus</AUTHOR>
+		<TITLE>Linux Bible, 9th Edition (2015)</TITLE>
+		<LINK>..\filestorage\Linux_Bible_9th_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Daniel P. Bovet, Marco Cesati</AUTHOR>
+		<TITLE>Understanding the Linux Kernel (2006)</TITLE>
+		<LINK>..\filestorage\Understanding_Linux_Kernel.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>David Both </AUTHOR>
+		<TITLE>The Linux Philosophy for SysAdmins (2018)</TITLE>
+		<LINK>..\filestorage\The_Linux_Philosophy_for_SysAdmins.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>

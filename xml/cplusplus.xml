@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR> D. S. Malik</AUTHOR>
+		<TITLE>C++ Programming, 6th Edition (2012)</TITLE>
+		<LINK>..\filestorage\C__Programming_6th_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Raffaele Cecco</AUTHOR>
+		<TITLE>Supercharged JavaScript Graphics (2013)</TITLE>
+		<LINK>..\filestorage\O_Reilly_-_Supercharged_JavaScript_Graphics_-_Cecco.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Stephen R. Davis</AUTHOR>
+		<TITLE>Beginning Programming with C++ For Dummies, 2nd Edition (2018)</TITLE>
+		<LINK>..\filestorage\Beginning_Programming_with_C_For_Dummies_2nd_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Wisnu Anggoro</AUTHOR>
+		<TITLE>Learning C++ Functional Programming (2017)</TITLE>
+		<LINK>..\filestorage\1anggoro_wisnu_learning_c_functional_programming.pdf</LINK>
+	</BOOK>
+
+	<BOOK>
+		<AUTHOR>Vivek Ragunathan</AUTHOR>
+		<TITLE>C++/CLI Primer (2016)</TITLE>
+		<LINK>..\filestorage\C_CLI_Primer.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKSHELF>
+	<BOOK>
+		<AUTHOR>Frank Zammetti</AUTHOR>
+		<TITLE>Practical React Native(2018)</TITLE>
+		<LINK>..\filestorage\C__Programming_6th_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Amin Meyghani</AUTHOR>
+		<TITLE>JavaScript Functions, Closures, and Prototypes (2016)</TITLE>
+		<LINK>..\filestorage\javasbript-closure.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Azat Mardan</AUTHOR>
+		<TITLE>Practical Node.js, 2nd Edition (2018)</TITLE>
+		<LINK>..\filestorage\Practical_Node_js_2nd_Edition.pdf</LINK>
+	</BOOK>
+	<BOOK>
+		<AUTHOR>Robin Wieruch</AUTHOR>
+		<TITLE>The Road to learn React (2018)</TITLE>
+		<LINK>..\filestorage\the-road-to-learn-react.pdf</LINK>
+	</BOOK>
+
+	<BOOK>
+		<AUTHOR>Baptiste Pesquet</AUTHOR>
+		<TITLE>The JavaScript Way (2017)</TITLE>
+		<LINK>..\filestorage\thejsway.pdf</LINK>
+	</BOOK>
+</BOOKSHELF>
